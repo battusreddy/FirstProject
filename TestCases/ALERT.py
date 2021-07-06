@@ -17,7 +17,7 @@ class testwindow:
         self.driver.find_element_by_xpath("//button[contains(text(),'alert box:')]").click()
         self.n1 = self.driver.switch_to_alert()
         self.n1.accept()
-        I JUST UPDATED PLEASE CHECK
+        I JUST UPDATED PLEASE CHECK  ANOTHER ONE
 
     def testwindow2(self):
         self.url = "http://demo.automationtesting.in/Alerts.html"
